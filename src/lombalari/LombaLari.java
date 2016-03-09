@@ -17,5 +17,7 @@ public class LombaLari {
         this.jaraak = this.putaran/waktu;
         return jaraak;
     }
-    
+    public String getNama (){
+        return nama;
+    }
 }
