@@ -1,3 +1,17 @@
+//Nama    = Dian Aslama
+//NIM     = 155150201111137
+//Kelas   = TIF-H
+
+//Identifikasi
+//Class   = LombaLari
+//Objek   = lomba
+//Method  = LombaLari (Constructor, getPutaran, getJuara, getNama
+//Atribut = putaran, waktu, jarak, keliling, jaraak
+
+
+
+
+
 package lombalari;
 public class LombaLari {
     private double putaran, waktu, jarak, keliling, jaraak;
