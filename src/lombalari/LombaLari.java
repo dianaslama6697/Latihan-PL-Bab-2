@@ -13,4 +13,9 @@ public class LombaLari {
         this.putaran = keliling*this.putaran;
         return putaran;
     }
+    public double getJuara(){
+        this.jaraak = this.putaran/waktu;
+        return jaraak;
+    }
+    
 }
