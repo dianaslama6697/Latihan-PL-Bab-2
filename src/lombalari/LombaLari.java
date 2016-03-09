@@ -9,5 +9,8 @@ public class LombaLari {
         this.waktu = waktu;
         this.keliling = (2*panjang)+(2*lebar);
     }
-    
+    public double getPutaran(){
+        this.putaran = keliling*this.putaran;
+        return putaran;
+    }
 }
