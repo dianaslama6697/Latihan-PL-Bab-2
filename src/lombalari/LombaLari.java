@@ -1,15 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-package lombalarilat;
-
-/**
- *
- * @author Dian
- */
+package lombalari;
 public class LombaLari {
+    private double putaran, waktu, jarak, keliling, jaraak;
+    private String nama, nim;
+    LombaLari (double putaran, double waktu, double panjang, double lebar, String nama, String nim){
+        this.nama = nama;
+        this.nim = nim;
+        this.putaran = putaran;
+        this.waktu = waktu;
+        this.keliling = (2*panjang)+(2*lebar);
+    }
     
 }
